@@ -17,7 +17,7 @@ APP_HASH = os.environ.get('APP_HASH', 'a184b91d39fc85265e232e7c323fac45')# Telgr
 OWNER_ID = int(os.environ.get('OWNER_ID', 5911422304))
 MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://naibansari987:Yuuichi@cluster0.rtojm39.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0') #MONGO DB FOR ANIME DATA
 FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1002065339023)    # Must Fill This ,Add Bot As Admin In Log Channel
-BOT_NAME = os.environ.get('BOT_NAME', 'Soheru')
+BOT_NAME = os.environ.get('BOT_NAME', 'Anime Encoder Bot')
 #<-----------Variables For 4GB Support (Optional)-------------->
 SESSION_STRING = os.environ.get("SESSION_STRING",'None')  #Replace None With String Session   Your String Session Account Must Be Present In Log Channel
 ubot = None  # Don't Touch This
