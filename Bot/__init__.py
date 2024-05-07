@@ -11,12 +11,12 @@ LOG.setLevel(level=logging.INFO)
 #<-----------Variables-------------->
 LOG.info('❤️ Checking Bot Variables.....')
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'your bot token') #BOT Token Add
-API_ID = int(os.environ.get('API_ID', 456789)) #Telgram Api id
-APP_HASH = os.environ.get('APP_HASH', 'your api id')# Telgram App hash  
-OWNER_ID = int(os.environ.get('OWNER_ID', 953362604))
-MONGO_DB = os.environ.get("MONGO_DB", 'your mongodb') #MONGO DB FOR ANIME DATA
-FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -100456789013)    # Must Fill This ,Add Bot As Admin In Log Channel
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '7178328462:AAGxoLf3bjq_Fib0CJINPUDAYAaZXHA_dvM') #BOT Token Add
+API_ID = int(os.environ.get('API_ID', 18196402)) #Telgram Api id
+APP_HASH = os.environ.get('APP_HASH', 'a184b91d39fc85265e232e7c323fac45')# Telgram App hash  
+OWNER_ID = int(os.environ.get('OWNER_ID', 5911422304))
+MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://naibansari987:Yuuichi@cluster0.rtojm39.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0') #MONGO DB FOR ANIME DATA
+FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1002065339023)    # Must Fill This ,Add Bot As Admin In Log Channel
 BOT_NAME = os.environ.get('BOT_NAME', 'Soheru')
 #<-----------Variables For 4GB Support (Optional)-------------->
 SESSION_STRING = os.environ.get("SESSION_STRING",'None')  #Replace None With String Session   Your String Session Account Must Be Present In Log Channel
